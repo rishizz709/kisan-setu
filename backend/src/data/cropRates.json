@@ -1,0 +1,7 @@
+{
+  "Paddy":     { "code": "PDY", "pricePerQuintal": 2183 },
+  "Wheat":     { "code": "WHT", "pricePerQuintal": 2275 },
+  "Maize":     { "code": "MAZ", "pricePerQuintal": 2090 },
+  "Cotton":    { "code": "COT", "pricePerQuintal": 7121 },
+  "Groundnut": { "code": "GRN", "pricePerQuintal": 6377 }
+}

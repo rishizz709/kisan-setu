@@ -1,0 +1,7 @@
+[
+  { "id": "c1", "name": "Kondapalli APMC Yard", "lat": 16.6141, "lng": 80.5122, "crops": ["Paddy"], "capacity": 100, "booked": 78, "queue": 22, "distanceKm": 7.2 },
+  { "id": "c2", "name": "Peddapuram Mandi", "lat": 17.0784, "lng": 82.1381, "crops": ["Cotton", "Paddy"], "capacity": 80, "booked": 76, "queue": 34, "distanceKm": 3.1 },
+  { "id": "c3", "name": "Rajahmundry Collection Pt.", "lat": 17.0005, "lng": 81.8040, "crops": ["Maize", "Wheat"], "capacity": 120, "booked": 49, "queue": 9, "distanceKm": 14.6 },
+  { "id": "c4", "name": "Tuni Grain Depot", "lat": 17.3572, "lng": 82.5455, "crops": ["Groundnut", "Wheat"], "capacity": 60, "booked": 11, "queue": 2, "distanceKm": 21.3 },
+  { "id": "c5", "name": "Anaparthi Buying Centre", "lat": 16.9280, "lng": 82.0000, "crops": ["Paddy", "Maize"], "capacity": 90, "booked": 31, "queue": 5, "distanceKm": 9.8 }
+]

@@ -1,0 +1,42 @@
+/* extras.css — styling for elements introduced by the rebuild that weren't
+   in the original single-file demo: centre recommendation cards, the
+   stage-by-stage progress tracker, inline form errors, and small helpers. */
+
+.form-error{background:rgba(193,90,52,.12);border:1px solid var(--clay-rust);color:#e8a688;border-radius:8px;padding:10px 14px;font-size:0.85rem;margin-bottom:14px;}
+.resend-link{display:inline-block;margin-top:8px;font-size:0.8rem;color:var(--wheat-gold-dim);text-decoration:underline;cursor:pointer;}
+.resend-link:hover{color:var(--wheat-gold);}
+
+.mini-list{list-style:none;margin:0;padding:0;}
+.mini-list li{display:flex;justify-content:space-between;padding:9px 0;border-top:1px solid var(--panel-line);font-size:0.9rem;}
+.mini-list li:first-child{border-top:none;}
+.mini-list li span{color:var(--husk-cream-dim);font-size:0.82rem;}
+
+.centre-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;margin-top:16px;}
+.centre-card{position:relative;background:var(--panel-2);border:1px solid var(--panel-line);border-radius:12px;padding:18px;}
+.centre-card.best{border-color:var(--wheat-gold);}
+.badge-best{position:absolute;top:-10px;right:14px;background:var(--wheat-gold);color:var(--soil-black);font-family:var(--mono);font-size:0.68rem;padding:3px 9px;border-radius:100px;font-weight:600;letter-spacing:0.03em;}
+.centre-name{font-family:var(--display);font-weight:600;font-size:1.02rem;margin-bottom:8px;}
+.centre-meta{display:flex;flex-direction:column;gap:4px;font-size:0.82rem;color:var(--husk-cream-dim);margin-bottom:14px;}
+
+.status-normal{color:var(--sprout-green);text-transform:capitalize;}
+.status-moderate{color:var(--wheat-gold);text-transform:capitalize;}
+.status-overloaded{color:var(--clay-rust);text-transform:capitalize;}
+
+.token-code{font-family:var(--mono);font-size:1.4rem;letter-spacing:0.04em;color:var(--wheat-gold);margin-bottom:16px;font-weight:600;}
+
+.status-meta{display:grid;grid-template-columns:auto 1fr;gap:8px 18px;font-size:0.92rem;margin-bottom:26px;}
+.status-meta dt{color:var(--husk-cream-dim);font-family:var(--mono);font-size:0.78rem;}
+.status-meta dd{margin:0;font-weight:500;}
+
+.stage-track{display:flex;flex-direction:column;gap:0;margin-bottom:20px;}
+.stage-step{display:flex;gap:16px;position:relative;padding-bottom:26px;}
+.stage-step:last-child{padding-bottom:0;}
+.stage-step:not(:last-child)::before{content:"";position:absolute;left:13px;top:28px;bottom:0;width:2px;background:var(--panel-line);}
+.stage-dot{flex:none;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:0.78rem;font-weight:600;background:var(--panel-2);border:2px solid var(--panel-line);color:var(--husk-cream-dim);}
+.stage-text{display:flex;flex-direction:column;gap:2px;}
+.stage-text b{font-size:0.95rem;}
+.stage-text span{font-size:0.8rem;color:var(--husk-cream-dim);}
+.stage-done .stage-dot{background:var(--sprout-green);border-color:var(--sprout-green);color:#fff;}
+.stage-done:not(:last-child)::before{background:var(--sprout-green);}
+.stage-current .stage-dot{background:var(--wheat-gold);border-color:var(--wheat-gold);color:var(--soil-black);}
+.stage-current .stage-text b{color:var(--wheat-gold);}
