@@ -14,9 +14,9 @@ The system uses **capacity-aware centre recommendations** to help reduce unneces
 
 | Component | URL |
 |---|---|
-| 🌐 Frontend | `https://YOUR-NETLIFY-SITE.netlify.app` |
-| ⚙️ Backend API | `https://YOUR-BACKEND.onrender.com` |
-| ❤️ Health Check | `https://YOUR-BACKEND.onrender.com/api/health` |
+| 🌐 Frontend |  `https://kisansetu010.netlify.app/` |
+| ⚙️ Backend API | `https://kisan-setu-xrfx.onrender.com` |
+| ❤️ Health Check | `https://kisan-setu-xrfx.onrender.com/api` |
 
 > Replace the placeholder URLs after deployment.
 
